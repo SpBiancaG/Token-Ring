@@ -15,19 +15,16 @@ std::string PC::GetIP()
 	return m_IP;
 }
 
-std::string PC::GetBuffer()
-{
-	return m_buffer;
-}
+
 
 PC::PC()
 {
 	this->m_IP = "";
-	this->m_buffer = "";
+	
 }
 
 PC::PC(const std::string& IP)
 {
 	this->m_IP = IP;
-	this->m_buffer = "";
+	
 }
